@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+ int a;
+ int i=1;
+ do{
+ a=i*i;
+ //cout<<a<<" ";
+  i++;
+   }while(a%10%2==0 || a%100/10%2==0);
+    cout<<a<<endl;
+     return 0;    
+}
+ 
